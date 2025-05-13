@@ -13,8 +13,8 @@ import {
   MessageSquare,
   User,
 } from "lucide-react";
-// @ts-ignore
-import  validateForm  from "../utils/ValidateForm";
+
+import  {validateForm}  from "../utils/ValidateForm";
 const SignupPage = () => {
 
   const [showPassword, setShowPassword] = useState(false);
