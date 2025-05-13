@@ -14,7 +14,7 @@ import {
   User,
 } from "lucide-react";
 // @ts-ignore
-import { validateForm } from "../utils/validateForm.js";
+import  validateForm  from "../utils/ValidateForm";
 const SignupPage = () => {
 
   const [showPassword, setShowPassword] = useState(false);
